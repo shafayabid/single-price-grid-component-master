@@ -1,9 +1,19 @@
+body 
+{
+	display: flex;
+	background-color: hsl(204, 43%, 93%);
+	justify-content: center;
+	align-content: center;
+}
+
 .card
 {
 	display: grid;
 
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr 1fr;
+
+	/*max-width: 50%;*/
 
 }
 
@@ -13,15 +23,22 @@
 
 	grid-column: 1 / span 2;
 
+	background-color: white;
+
 }
 
 .bottom_right
 {
 	display: grid;
+
+	background-color: hsl(179, 62%, 48%);
 }
 
 .bottom_left
 {
 	display: grid;
+
+	background-color: hsl(179, 62%, 43%);
 }
+
 
