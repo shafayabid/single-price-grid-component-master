@@ -1,44 +1,118 @@
-body 
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body
 {
-	display: flex;
-	background-color: hsl(204, 43%, 93%);
-	justify-content: center;
-	align-content: center;
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif !important;
+}
+.border-radius
+{
+    border-radius: 0px;
+}
+.mt-200
+{
+    margin-top: 200px;
+}
+.box2
+{
+    background-color: hsl(179, 62%, 43%);
+    border-bottom-left-radius: 8px !important;   
+}
+.box3
+{
+    background-color: hsl(179,47%,51%);
+    border-bottom-right-radius: 8px !important;
+}
+.h1-box1
+{
+    font-weight: 700;
+    font-size: 25px;
+    color: hsl(179, 62%, 43%);
+}
+.h2-box1
+{
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 20px;
+    color: hsl(71, 73%, 54%);
+}
+.box1-text
+{
+    font-size: 16px;
+    color:  hsl(218, 22%, 67%);
+}
+.h1-box2
+{
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+}
+.monthly-rate
+{
+    font: 700;
+    font-size: 28px;
+    color: white;
+}
+.per-month
+{
+    color: hsl(177,42%,63%);
+    margin-left: 7px;
+}
+.btn
+{
+    background-color: hsl(71, 73%, 54%) !important;
+    color: white;
+    margin-right: 50px !important;
+    margin-left: 0px !important;
+    margin-top: 10px !important;
+    margin-bottom: 15px !important;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.h1-box3
+{
+    font: 700;
+    font-size: 16px;
+    color: white;
+}
+.box3-text
+{
+    color:hsl(204, 43%, 93%);
+    font-size: 12px;
+    white-space: pre;
+    text-align: left;
+    margin-left: -90px !important;
+    margin-top: -10px !important;
+}
+.topbox
+{
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.leftbox
+{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.box2-text1
+{
+    margin-top: 15px;
+}
+.box2-text2
+{
+    color: white;
+    font-size: 14px;
+}
+.rightbox
+{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.box1
+{
+    border-top-left-radius: 8px !important;
+    border-top-right-radius: 8px !important;
 }
 
-.card
-{
-	display: grid;
-
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
-
-	/*max-width: 50%;*/
-
-}
-
-.top
-{
-	display: grid;
-
-	grid-column: 1 / span 2;
-
-	background-color: white;
-
-}
-
-.bottom_right
-{
-	display: grid;
-
-	background-color: hsl(179, 62%, 48%);
-}
-
-.bottom_left
-{
-	display: grid;
-
-	background-color: hsl(179, 62%, 43%);
-}
 
 
